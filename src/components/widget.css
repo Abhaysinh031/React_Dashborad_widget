@@ -1,0 +1,43 @@
+/* widget container box in categories */
+.container_box{
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    border-radius: 10px;
+}
+
+/* widget name & text style */
+.categories{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* widget remove button */
+.categories button{
+    height: fit-content;
+    background-color: transparent ;
+    border: hidden;
+}
+/* hover effect for remove button */
+.categories button:hover{
+    border: 1px solid rgb(42, 41, 41);
+    border-radius: 5px;
+    background-color: rgb(254, 254, 254);
+}
+
+/* Resposive widget page */
+@media(min-width:100px) and (max-width:700px){
+    .container_box{
+        display: flex;
+        flex-direction: column;
+        background-color: azure;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
+    .categories{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
