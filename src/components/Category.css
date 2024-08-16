@@ -88,14 +88,32 @@
 }
 
 /* Responsive category page */
-@media(min-width:100px) and (max-width:700px){
+@media only screen and (max-width: 768px){
     .dashboard_widget_box{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
 
-    .addWidget_cancel button{
-        font-size: 8px;
+    .Add_widget{
+        width: 100%;
+    }
+    .particular_add_widget{
+        width: 100%;;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .dashboard_widget_box{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .Add_widget{
+        width: 100%;
+    }
+    .particular_add_widget{
+        width: 100%;;
     }
 }

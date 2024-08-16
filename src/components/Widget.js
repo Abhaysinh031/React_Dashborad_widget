@@ -10,7 +10,7 @@ function Widget({ widget, removeWidget }) {
   };
 
   return (
-    <div className='container_box' style={{ width: '30vw', height: '25vh', margin: '15px', padding: '10px' }}>
+    <div className='container_box' >
       <div className='categories'>
         <h3>{widget.name}</h3>
         <button onClick={handleRemoveClick} style={{ color: 'red' }}>
