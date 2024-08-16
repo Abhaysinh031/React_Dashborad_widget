@@ -1,6 +1,3 @@
-## Assignment Link
-[View the Assignment] ( https://github.com/Abhaysinh031/React_Dashborad_widget )
-
 
 
 # Clone the Repository:
