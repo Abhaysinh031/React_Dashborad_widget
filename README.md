@@ -1,3 +1,8 @@
+## Assignment Link
+[View the Assignment] ( https://github.com/Abhaysinh031/React_Dashborad_widget )
+
+
+
 # Clone the Repository:
 
 If you haven't already, clone the repository to your local machine:
@@ -24,3 +29,15 @@ Once the dependencies are installed, you can start the development server:
 npm start
 
 ```
+
+
+## Usage
+- Navigate to the dashboard to see the widgets.
+- Use the 'Add Widget' button to add new widgets to categories.
+
+## Technologies Used
+- React.js
+- JavaScript
+- HTML/CSS
+- Other libraries or frameworks...
+
